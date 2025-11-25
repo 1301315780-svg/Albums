@@ -11,10 +11,8 @@ body {
 .header {
     background-color: #000000;
     text-align: center;
-    margin-top: 40px;
     padding: 30px;
-    border-radius: 15px;
-    border: 25px ridge #000000;
+    border-bottom: 25px ridge #ff0000;
 }
 
 .header h1 {
@@ -24,6 +22,7 @@ body {
     font-size: 55px;
     color: #ffffff;
     text-shadow: 2px 2px 0px #000000, 4px 4px 0px #ffffff;
+    animation: red-pulse 2s infinite;
 }
 
 .image-container {
@@ -57,6 +56,22 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+.image-container:hover .image-item:not(:hover) {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+.image-item {
+    transition: filter 0.3s ease;
+}
+
+@keyframes red-pulse {
+    0%, 100% { text-shadow: 2px 2px 0px #fdfdfd, 4px 4px 0px #ff0000; }
+    50% { text-shadow: 0 0 15px #ff0000, 1px 1px 0px #000000; }
+}
+
+
+
 
 
 
