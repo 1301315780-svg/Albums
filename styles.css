@@ -58,11 +58,11 @@ body {
 }
 .image-container:hover .image-item:not(:hover) {
     filter: blur(5px);
-    transition: filter 0.3s ease;
+    transition: filter 0.1s ease;
 }
 
 .image-item {
-    transition: filter 0.3s ease;
+    transition: filter 0.1s ease;
 }
 
 @keyframes red-pulse {

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap');
+
+body {
+    background: linear-gradient(13deg, #ffffff 0%, #ffffff 100%);
+    font-family: "Anton", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 25px ridge #000000;
+}
+
+.header h1 {
+    font-family: "Rubik Dirt", sans-serif;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-size: 55px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000000, 4px 4px 0px #ffffff;
+    animation: red-pulse 2s infinite;
+}
+
+@keyframes red-pulse {
+    0%, 100% { text-shadow: 2px 2px 0px #fdfdfd, 4px 4px 0px #ffffff; }
+    50% { text-shadow: 0 0 15px #ffffff, 1px 1px 0px #000000; }
+}
+.header h1 {
+    display: none;
+}
+
+.album-cover {
+    text-align: center;
+    margin-bottom: ;
+}
+
+.album-cover img {
+    width: 600px;
+    height: auto;
+}
+
+
+
+
+
