@@ -8,14 +8,14 @@ body {
     min-height: 100vh;
 }
 
-.header {
+.main-header {
     background-color: #000000;
     text-align: center;
     padding: 30px;
     border-bottom: 25px ridge #ff0000;
 }
 
-.header h1 {
+.main-header h1 {
     font-family: "Rubik Dirt", sans-serif;
     font-weight: 900;
     letter-spacing: 7px;
@@ -25,7 +25,7 @@ body {
     animation: red-pulse 2s infinite;
 }
 
-.image-container {
+.album-gallery {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,35 +33,36 @@ body {
     gap: 50px;
 }
 
-.image-item {
+.album-card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.image-item img {
+.album-card img {
     width: 200px;
     height: 200px;
     cursor: pointer;
     transition: all 0.6s ease;
 }
 
-.image-item img:hover {
+.album-card img:hover {
     transform: scale(1.1) translateY(-20px);
 }
 
-.image-item p {
+.album-card p {
     margin-top: 15px;
     color: #000000;
     font-weight: bold;
     font-size: 16px;
 }
-.image-container:hover .image-item:not(:hover) {
+
+.album-gallery:hover .album-card:not(:hover) {
     filter: blur(5px);
     transition: filter 0.1s ease;
 }
 
-.image-item {
+.album-card {
     transition: filter 0.1s ease;
 }
 
@@ -69,10 +70,3 @@ body {
     0%, 100% { text-shadow: 2px 2px 0px #fdfdfd, 4px 4px 0px #ff0000; }
     50% { text-shadow: 0 0 15px #ff0000, 1px 1px 0px #000000; }
 }
-
-
-
-
-
-
-

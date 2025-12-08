@@ -34,8 +34,6 @@ body {
     100% { opacity: 1; }
 }
 
-
-
 .information {
     align-items: center;
     display: flex;
@@ -47,11 +45,6 @@ body {
     justify-content: center;
 }
 
-.album-cover img {
-    width: 480px;
-    height: auto;
-    animation: fadeIn 1.5s ease-in;
-}
 .home-btn {
     color: whitesmoke;
     text-decoration: dashed;
