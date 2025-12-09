@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Notable&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&family=Smooch+Sans:wght@100..900&display=swap');
 body {
-    background: linear-gradient(13deg, #ffffff 0%, #ffffff 100%);
+    background-color: rgba(243, 243, 243, 0.545);
     font-family: "Anton", sans-serif;
     margin: 0;
     padding: 0;
@@ -12,7 +12,11 @@ body {
     text-align: center;
     padding: 30px;
     border-bottom: 25px ridge #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .header h1 {
     display: none;
@@ -49,6 +53,31 @@ body {
     color: whitesmoke;
     text-decoration: dashed;
 }
+
+.tracklist-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.iammusic-list {
+    text-align: left;
+    flex: 1;
+}
+
+.tracklist-image {
+    width: 700px;
+    height: 700px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 
