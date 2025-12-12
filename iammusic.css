@@ -61,16 +61,22 @@ body {
     padding: 10px;
 }
 
-.iammusic-list {
-    text-align: left;
-    flex: 1;
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-.tracklist-image {
-    width: 700px;
-    height: 700px;
-    margin-left: 20px;
+
+.tracklist-image.spinning-disc-2 {
+  width: 700px !important;
+  height: 700px !important;
+  border-radius: 50% !important;
+  animation: spin 7s linear infinite !important;
 }
+
+
+
+
 
 
 

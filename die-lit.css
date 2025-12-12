@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: "Anton", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #111111;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid #333333;
+}
+
+.home-btn {
+    color: white;
+    text-decoration: dashed;
+    font-size: 18px;
+}
+
+.album-title {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.album-title h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.album-cover {
+    text-align: center;
+    margin-top: 20px;
+}
+.album-cover img {
+    width: 400px;
+    animation: slideDown 1.67s ease-out;
+}
+
+@keyframes slideDown {
+    0% { 
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
