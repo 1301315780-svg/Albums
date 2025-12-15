@@ -52,6 +52,42 @@ body {
         opacity: 1;
     }
 }
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 60px;
+}
+
+.tracklist {
+    flex: 1;
+}
+
+.side-image {
+    width: 590px;
+    flex-shrink: 0;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+
+.tracklist ol {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.tracklist li {
+    margin-bottom: 8px;
+}
+
+
 
 
 
